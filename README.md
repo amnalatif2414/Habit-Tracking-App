@@ -3,6 +3,18 @@
 ## Description
 The Habit Tracking App is a Python-based command-line tool designed to help users track their daily and weekly habits. It allows users to create habits, mark them as complete, and analyze their progress by tracking streaks. The app also provides options to delete individual habits or remove all habits at once. It uses an SQLite database to store habit data, ensuring persistence across sessions.
 
+## Features
+- **User Accounts** – Users can create an account, log in, and log out.
+- **Predefined Habits** – Some common habits (like Exercise, Read, and Walk) are available to select.
+**Custom Habits** – Users can create their own habits with a chosen name and frequency (daily or weekly).
+**Mark Habit as Complete** – Users can mark a habit as done for the day or week.
+**Delete Habit** – Users can remove a specific habit or all habits at once.
+**View Habits** – Users can see all their habits and check which ones need to be completed.
+**Filter Habits by Frequency** – Users can filter habits based on daily or weekly tracking.
+**Track Progress** – The app records when habits are completed.
+**View Analytics** – Users can check stats like longest streak, most completed habit, and progress graphs.
+
+
 ## Dependencies
 The Habit Tracker requires the following dependencies:
 - Python 3.8.8 or a compatible version 
@@ -17,27 +29,19 @@ To set up and run the Habit Tracker application, follow these steps:
 
 ## Usage
 To start the application, run the following command:
-- [main.py](main.py)
-  This will open a command-line menu where users can register, log in, and interact with their habits.
+
+ `python main.py`
+
+This will open a command-line menu where users can register, log in, and interact with their habits.
 
 ## Running Tests
 To run tests, install unittest if it's not already installed:
- `pip install unittest`
+
+`pip install unittest`
+
 Then, execute the tests with:
-  ```sh
+```sh
 python -m unittest
-
-
-## Features
- - **User Accounts** – Users can create an account, log in, and log out.
- - **Predefined Habits** – Some common habits (like Exercise, Read, and Walk) are available to select.
- -  **Custom Habits** – Users can create their habits with a chosen name and frequency (daily or weekly).
- -  **Mark Habit as Complete** – Users can mark a habit as done for the day or week.
- -  **Delete Habit** – Users can remove a specific habit or all habits at once.
- -  **View Habits** – Users can see all their habits and check which ones need to be completed.
- -  **Filter Habits by Frequency** – Users can filter habits based on daily or weekly tracking.
- -  **Track Progress** – The app records when habits are completed.
- -  **View Analytics** – Users can check stats like longest streak, most completed habit, and progress graphs.
 
 
 
