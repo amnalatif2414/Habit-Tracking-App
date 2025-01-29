@@ -24,7 +24,8 @@ To start the application, run the following command:
 To run tests, install unittest if it's not already installed:
  `pip install unittest`
 Then, execute the tests with:
-  `unittest`
+  ```sh
+python -m unittest
 
 
 ## Features
