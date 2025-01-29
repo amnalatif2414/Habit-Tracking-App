@@ -15,7 +15,7 @@ To set up and run the Habit Tracker application, follow these steps:
 - (Optional) Download habit.db to use predefined habits with four weeks of sample data.
 - Open a terminal or command prompt and navigate to the directory where the files are located.
 
-## Running the Program
+## Usage
 To start the application, run the following command:
 python main.py
 This will open a command-line menu where users can register, log in, and interact with their habits.
@@ -27,17 +27,17 @@ Then, execute the tests with:
 unittest
 
 ## Features
-- **Add habits** with daily or weekly periodicity.
-- **Complete habits** for the current date.
-- **Track progress** by viewing streaks of consecutive habit completions.
-- **Delete a specific habit** or **delete all habits**.
-- **View longest streak** of any habit.
-- **Filter habits by periodicity** (daily/weekly).
-- **Persistent storage** of habits using SQLite.
+- **User Accounts** – Users can create an account, log in, and log out.
+**Predefined Habits** – Some common habits (like Exercise, Read, and Walk) are available to select.
+**Custom Habits** – Users can create their own habits with a chosen name and frequency (daily or weekly).
+**Mark Habit as Complete** – Users can mark a habit as done for the day or week.
+**Delete Habit** – Users can remove a specific habit or all habits at once.
+**View Habits** – Users can see all their habits and check which ones need to be completed.
+**Filter Habits by Frequency** – Users can filter habits based on daily or weekly tracking.
+**Track Progress** – The app records when habits are completed.
+**View Analytics** – Users can check stats like longest streak, most completed habit, and progress graphs.
 
-## Installation
 
-### Prerequisites
-- Python 3.7 or later should be installed on your machine.
-- SQLite is part of Python's standard library, so no external database setup is required.
+
+
 
