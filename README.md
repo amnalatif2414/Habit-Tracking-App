@@ -22,9 +22,9 @@ To start the application, run the following command:
 
 ## Running Tests
 To run tests, install unittest if it's not already installed:
-pip install unittest
+ `pip install unittest`
 Then, execute the tests with:
-unittest
+  `unittest`
 
 
 ## Features
