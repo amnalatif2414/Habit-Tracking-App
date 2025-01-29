@@ -18,7 +18,7 @@ To set up and run the Habit Tracker application, follow these steps:
 ## Usage
 To start the application, run the following command:
 - [main.py](main.py)
-This will open a command-line menu where users can register, log in, and interact with their habits.
+  This will open a command-line menu where users can register, log in, and interact with their habits.
 
 ## Running Tests
 To run tests, install unittest if it's not already installed:
